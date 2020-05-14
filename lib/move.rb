@@ -14,5 +14,5 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def move(board, index, player = 'X')
-  board[index] = player
+  @board[index] = player
 end
