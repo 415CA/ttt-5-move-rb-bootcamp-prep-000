@@ -13,6 +13,6 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def move(index, player = 'X')
+def move(board, index, player = 'X')
   @board[index] = player
 end
